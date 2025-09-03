@@ -112,7 +112,7 @@ export async function generateExpenseInsights(
         title: insight.title || 'AI Insight',
         message: insight.message || 'Analysis complete',
         action: insight.action,
-        confidence: insight.confidence || 0.8,
+        confidence: insight.confidence || 0.7,
       })
     );
 
